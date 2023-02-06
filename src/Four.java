@@ -16,8 +16,10 @@ public class Four {
             for (int j = 0; j < numberOfAthletes; j++) {
                 arr[j] = Integer.parseInt(lineItems[j]);
             }
-            System.out.println(Arrays.toString(sort(arr)));
-            f
+            int [] nomber = (sort(arr));
+            for (int j = 0; j < nomber.length; j++){
+                System.out.print(nomber[j] + " ");
+            }
         }
     }
 
